@@ -438,6 +438,9 @@ header .modal-content .modal-body{
   padding: 20px;
 }
 
+.nav_bar_list .navbar-nav {
+    margin-left: 0px;
+}
 
        
 /* Slideshow button */ 
@@ -1041,6 +1044,22 @@ color: #7A7A7A;
 .mobile_nav_bar{
     display: none;
 }
+.transparent_bg{
+    width: 345px;
+    padding: 65px 15px;
+    background: #ffffff2b;
+    border-radius: 10px;
+    margin: 0 auto;
+    bottom: 80px;
+    border: 2px solid;
+}
+.carousel-caption-heading h5{
+    color: #000;
+}
+.carousel-caption-heading p{
+    padding-top: 10px;
+    color: #222222;
+}
 
 
 /* .elementor-section-subnav{
@@ -1104,6 +1123,14 @@ color: #7A7A7A;
 
 
 @media only screen and (max-width:767px) {
+    .logo {
+        width: 70%;
+    }
+    .mobile-nav-bar-flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
     .elementor_width {
         max-width: 100%;
     }
@@ -1446,6 +1473,13 @@ color: #7A7A7A;
     .elementor-widget-contact .common_input {
         padding: .53em;
     }
+
+    .mobile-scroll-banner{
+        height: 160px;
+    }
+    .carousel-indicators {
+        margin-bottom: 0.5rem
+    }
 }
 @media only screen and (min-width : 856.99px) and (max-width : 1323.98px) {
     .mobile-from-section {
@@ -1561,7 +1595,15 @@ color: #7A7A7A;
     .mobile_nav_bar{
         display: block;
     }
-
+    /* .logo {
+        width: 65%;
+    } */
+    .img-nav-width{
+        width: 260px;
+    }
+    .img-nav-width .logo{
+        width: 100%;
+    }
 
     .bg_box_position {
         position: absolute;
@@ -1680,4 +1722,12 @@ color: #7A7A7A;
 .contact_number a {
     font-size: 16px;
 }
+}
+@media only screen and (min-width : 991.99px) and (max-width : 1210.98px) {
+    .img-nav-width{
+        width: 260px;
+    }
+    .img-nav-width .logo{
+        width: 100%;
+    }
 }
